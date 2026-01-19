@@ -22,7 +22,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -123,54 +123,5 @@ print()
 """
 Variational Quantum Circuit (VQC) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     4    10     8     8    37    28    36
-"""
-
-
-
-
-
-"""
-
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-
-
-
-
-QCM
-
-QDR 
-
-QELM
-
-QGPR 
-
-QTL
-
-
-
-
-quantile 
-
-VQC
-
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
+0     4    10     x     y     z    28    36
 """
