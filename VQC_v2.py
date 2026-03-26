@@ -22,7 +22,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/4c/Desktop/GHQ/data/loto7hh_4586_k24.csv')
+df_raw = pd.read_csv('/data/loto7hh_4586_k24.csv')
 # 4586 historical draws of Lotto 7/39 (Serbia)
 
 _MIN_POS = np.array([1, 2, 3, 4, 5, 6, 7], dtype=int)
